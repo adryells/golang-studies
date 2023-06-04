@@ -7,7 +7,7 @@ from apps.backend.app.database.utils import initialize_database, drop_database
 db = main_session()
 
 
-def main() -> None:
+def main():
     drop_database(session=db)
     initialize_database(session=db)
     load_all(session=db)
