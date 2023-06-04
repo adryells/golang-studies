@@ -7,14 +7,10 @@ from apps.backend.app.database.utils import initialize_database, drop_database
 db = main_session()
 
 
-def init() -> None:
-    initialize_database(db)
-    load_all(session=db)
-
-
 def main() -> None:
     drop_database(session=db)
-    init()
+    initialize_database(session=db)
+    load_all(session=db)
     logger.info("Initial data created")
 
 
