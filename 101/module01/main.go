@@ -20,4 +20,7 @@ func main(){
 	openFile("hello.txt")
 	firstLoop()
 	secondLoop()
+	slices()
+	maps()
+	structs()
 }
