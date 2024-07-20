@@ -24,4 +24,5 @@ func main(){
 	maps()
 	structs()
 	moreStructs()
+	goroutines()
 }
