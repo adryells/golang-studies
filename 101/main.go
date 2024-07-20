@@ -23,4 +23,5 @@ func main(){
 	slices()
 	maps()
 	structs()
+	moreStructs()
 }
